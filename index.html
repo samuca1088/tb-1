@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Organização Exemplo — Início</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<div class="container">
+<img src="assets/images/logo.webp" alt="Logo Organização" class="logo">
+<nav aria-label="Menu principal">
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="projetos.html">Projetos Sociais</a></li>
+<li><a href="cadastro.html">Cadastro</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+
+<main>
+<section class="hero" aria-labelledby="hero-title">
+<h1 id="hero-title">Bem-vindo à Organização Exemplo</h1>
+<p>Trabalhando com voluntariado, inclusão e doações para transformar vidas.</p>
+<img src="assets/images/hero.jpg" alt="Voluntários em ação"/>
+</section>
+
+
+<section aria-labelledby="contact" class="contact">
+<h2 id="contact">Contato</h2>
+<address>
+<p>Email: <a href="mailto:contato@exemplo.org">contato@exemplo.org</a></p>
+<p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+</address>
+</section>
+</main>
+
+
+<footer>
+<p>&copy; <span id="ano"></span> Organização Exemplo. Todos os direitos reservados.</p>
+<script>
+document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</footer>
+</body>
+</html>
